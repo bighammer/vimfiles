@@ -87,7 +87,11 @@ set smarttab                                " set tabs for a shifttabs logic
 set expandtab                               " expand tabs into spaces
 set autoindent                              " indent when moving to the next line while writing code
 
-set cursorcolumn                            " show vertical cursor
+set cursorcolumn                            " show vertical cursor [andrew]
+set showcmd                                 " show cmd input in cmd mode [andrew]
+set visualbell                              " show visual bell [andrew]
+"set noerrorbells                           " switch off errorbells [andrew]
+set colorcolumn=80
 set cursorline                              " shows line under the cursor's line
 set showmatch                               " shows matching part of bracket pairs (), [], {}
 
